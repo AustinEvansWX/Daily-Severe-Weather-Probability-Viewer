@@ -25,7 +25,7 @@ let playing = false;
 
 // Set this to a low number to begin with to let your browser cache all the images
 // Then increase for a smoother playback
-const frameRate = 60;
+const frameRate = 5;
 
 playButton.addEventListener('click', Play);
 stopButton.addEventListener('click', Stop);
