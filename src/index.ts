@@ -37,7 +37,7 @@ function Play() {
       const newValue = parseInt(rangeInput.value) + 1;
 
       // Stop playing if the input has reached the end of the image array
-      if (newValue > images.length - 1) return stopButton.click();
+      if (newValue > images.length - 1) return Stop();
 
       rangeInput.value = newValue.toString();
       rangeInput.dispatchEvent(new Event('input'));
