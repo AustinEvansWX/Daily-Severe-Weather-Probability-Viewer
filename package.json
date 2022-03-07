@@ -1,0 +1,13 @@
+{
+  "name": "daily-severe-weather-probability",
+  "version": "1.0.0",
+  "description": "Daily severe weather probability viewer",
+  "main": "dist/index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^17.0.21",
+    "axios": "^0.26.0",
+    "cheerio": "^1.0.0-rc.10"
+  }
+}

@@ -1,0 +1,44 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background: rgb(20, 20, 20);
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 0.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container > img {
+  border-radius: 5px;
+}
+
+.container > div {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.5rem;
+}
+
+button {
+  background: rgb(30, 30, 30);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 2rem;
+  color: white;
+  transition: all .15s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(40, 40, 40);
+}
+
+button:active {
+  background: rgb(30, 30, 30);
+}
